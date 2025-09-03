@@ -1,17 +1,17 @@
-#Business Problem
+# Business Problem
 
 Our product is designed for monthly usage (e.g., a budgeting app where users log in once a month). The company wants to understand user retention trends: how many users continue to return month after month.
 
 The challenge: traditional daily/weekly retention metrics are not meaningful here, since users are not expected to be active every day or week.
 
-##Key Metric: Monthly Retention Rate 
+## Key Metric: Monthly Retention Rate 
 
 Definition:
 Percentage of users who were active in the previous month and also active in the current month.
 
 Formula:
 
-MRR = \frac{\text{# of users active in both the previous month and the current month}}{\text{# of users active in the previous month}} \times 100
+MRR = # of users active in both the previous month and the current month / # of users active in the previous month}} \times 100
 
 Why Monthly?
 Since the product is meant for monthly use, a user who consistently returns every month is considered “retained.” Daily or weekly retention would incorrectly classify active users as “churned.”
@@ -44,6 +44,8 @@ WITH previous AS (
     FROM user_activity
     GROUP BY DATE_TRUNC('month', activity_date)
 ),
+
+
 retained AS (
     SELECT DATE_TRUNC('month', ua1.activity_date) AS previous_month,
            DATE_TRUNC('month', ua2.activity_date) AS current_month,
@@ -55,6 +57,8 @@ retained AS (
     GROUP BY DATE_TRUNC('month', ua1.activity_date),
              DATE_TRUNC('month', ua2.activity_date)
 )
+
+
 SELECT r.previous_month,
        r.current_month,
        p.previous_month_users,
