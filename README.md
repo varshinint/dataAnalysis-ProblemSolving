@@ -39,9 +39,3 @@ Each folder contains a structured case study with problem statements, thought pr
   - [`/Requirement Gathering Analysis`](./Requirement Gathering Analysis)  
 
 ---
-
-## Purpose of this Portfolio
-This portfolio is meant to demonstrate my **analytical approach, structured problem-solving, and communication skills** — even without access to real company data.  
-It reflects how I would work on real business problems, document insights, and present them in a professional way.
-
----
