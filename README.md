@@ -34,7 +34,7 @@ Each folder contains a structured case study with problem statements, thought pr
 - Each folder represents one analysis type (Ad-hoc, RCA, Requirement Gathering).  
 - Open the Markdown files (`.md`) inside each folder to view the detailed case studies.  
 - Example:  
-  - [`/Root Cause Analysis`](./Root_Cause_Analysis)  
+  - [`/SQL-RootCauseAnalysis`](./SQL-RootCauseAnalysis)  
   - [`/Ad-hoc Analysis`](./Adhoc_Analysis)  
   - [`/Requirement Gathering`](./Requirement_Gathering)  
 
