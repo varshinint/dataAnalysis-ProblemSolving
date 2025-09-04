@@ -11,7 +11,7 @@ Percentage of users who were active in the previous month and also active in the
 
 Formula:
 
-MRR = # of users active in both the previous month and the current month / # of users active in the previous month}} \times 100
+MRR =( # of users active in both the previous month and the current month *100) / # of users active in the previous month}}
 
 Why Monthly?
 Since the product is meant for monthly use, a user who consistently returns every month is considered “retained.” Daily or weekly retention would incorrectly classify active users as “churned.”
