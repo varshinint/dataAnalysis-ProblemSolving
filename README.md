@@ -10,11 +10,11 @@ Each folder contains a structured case study with problem statements, thought pr
 
 ###  Ad-hoc Analysis
 - Quick, one-time analyses performed to answer specific business questions.  
-- Example: Investigating sudden spikes or drops in user engagement.
+- Example: Why is feature adoption usage of a recently rolled out feature?
 
 ###  Root Cause Analysis (RCA)
 - Deep dives to identify the underlying cause behind a business problem.  
-- Example: Why did sales drop in a particular region? Why did retention fall in a specific user segment?
+- Example:  Investigating sudden spikes or drops in user engagement.
 
 ### Requirement Gathering Analysis
 - Structured clarification questions for new feature development.  
@@ -35,8 +35,8 @@ Each folder contains a structured case study with problem statements, thought pr
 - Open the Markdown files (`.md`) inside each folder to view the detailed case studies.  
 - Example:  
   - [`/SQL-RootCauseAnalysis`](./SQL-RootCauseAnalysis)  
-  - [`/Ad-hoc Analysis`](./Adhoc_Analysis)  
-  - [`/Requirement Gathering`](./Requirement_Gathering)  
+  - [`/SQL-Ad-Hoc Analysis`](./SQL-Ad-Hoc Analysis)  
+  - [`/Requirement Gathering Analysis`](./Requirement Gathering Analysis)  
 
 ---
 
