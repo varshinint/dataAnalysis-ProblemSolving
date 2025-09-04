@@ -35,7 +35,6 @@ Each folder contains a structured case study with problem statements, thought pr
 - Open the Markdown files (`.md`) inside each folder to view the detailed case studies.  
 - Example:  
   - [`/SQL-RootCauseAnalysis`](./SQL-RootCauseAnalysis)  
-  - [`/SQL-Ad-Hoc Analysis`](./SQL-Ad-Hoc Analysis)  
-  - [`/Requirement Gathering Analysis`](./Requirement Gathering Analysis)  
+
 
 ---
