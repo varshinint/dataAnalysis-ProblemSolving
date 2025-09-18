@@ -1,7 +1,7 @@
 # Data Analyst Portfolio
 
 Welcome to my **Data Analyst Portfolio**!  
-This repository showcases my problem-solving skills across different types of analyses that a data analyst or associate product analyst would typically perform.  
+This repository showcases my problem-solving skills across different types of analyses I would typically perform.  
 Each folder contains a structured case study with problem statements, thought process, and solutions written in a clear and professional way.
 
 ---
